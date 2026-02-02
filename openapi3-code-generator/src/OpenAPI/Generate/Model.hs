@@ -777,7 +777,7 @@ createFromJSONImplementation objectName fieldProps =
                   readPropE =
                     if fieldRequired
                       then [|$arg Aeson..: $fieldProp'|]
-                      else [|$arg Aeson..:! $fieldProp'|]
+                      else [|$arg Aeson..:? $fieldProp'|]
                in [|$prev <*> $readPropE|]
           )
           [|pure $(varE objectName)|]

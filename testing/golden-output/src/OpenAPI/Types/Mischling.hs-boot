@@ -51,3 +51,8 @@ instance Show MischlingRelativeVariants
 instance Eq MischlingRelativeVariants
 instance Data.Aeson.FromJSON MischlingRelativeVariants
 instance Data.Aeson.ToJSON MischlingRelativeVariants
+data MischlingWeirdUriVariants
+instance Show MischlingWeirdUriVariants
+instance Eq MischlingWeirdUriVariants
+instance Data.Aeson.FromJSON MischlingWeirdUriVariants
+instance Data.Aeson.ToJSON MischlingWeirdUriVariants

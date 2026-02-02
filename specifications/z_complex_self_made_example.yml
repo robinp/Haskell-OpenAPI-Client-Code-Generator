@@ -312,6 +312,14 @@ components:
           type: string
           maxLength: 244
           minLength: 100
+        weirdUri:
+          oneOf:
+          - type: string
+            maxLength: 0
+            minLength: 0
+          - type: string
+            format: uri
+            minLength: 1
         byte:
           type: string
           format: byte

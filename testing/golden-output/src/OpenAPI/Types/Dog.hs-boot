@@ -11,3 +11,8 @@ instance Show DogBreed
 instance Eq DogBreed
 instance Data.Aeson.FromJSON DogBreed
 instance Data.Aeson.ToJSON DogBreed
+data DogWeirdUriVariants
+instance Show DogWeirdUriVariants
+instance Eq DogWeirdUriVariants
+instance Data.Aeson.FromJSON DogWeirdUriVariants
+instance Data.Aeson.ToJSON DogWeirdUriVariants
